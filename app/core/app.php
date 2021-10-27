@@ -4,6 +4,13 @@ class App
 {
     public function __construct()
     {
-        var_dump($_REQUEST);
+        $url = $this->splitURL();
+
+        print_r($url);
+    }
+
+    public function splitURL()
+    {
+        return explode('/', filter_var(trim($_GET['url'], '/')), FILTER_SANITIZE_URL);
     }
 }
