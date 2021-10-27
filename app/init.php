@@ -1,6 +1,6 @@
 <?php
 
-require './core/config.php';
-require './core/controller.php';
-require './core/database.php';
-require './core/app.php';
+require __DIR__ . '/core/config.php';
+require __DIR__ . '/core/controller.php';
+require __DIR__ . '/core/database.php';
+require __DIR__ . '/core/app.php';
