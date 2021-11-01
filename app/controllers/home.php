@@ -1,9 +1,9 @@
 <?php
 
-class Home
+class Home extends BaseController
 {
     public function index()
     {
-        echo 'This is the index method in the home controller!';
+        $this->view('catalog/index');
     }
 }
