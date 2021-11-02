@@ -12,13 +12,6 @@
         href="<?= ASSETS ?>catalog/fontawesome/css/all.min.css">
     <link rel="stylesheet"
         href="<?= ASSETS ?>catalog/css/templatemo-style.css">
-    <!--
-    
-TemplateMo 556 Catalog-Z
-
-https://templatemo.com/tm-556-catalog-z
-
--->
 </head>
 
 <body>
@@ -34,7 +27,7 @@ https://templatemo.com/tm-556-catalog-z
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <i class="fas fa-film mr-2"></i>
-                Catalog-Z
+                <?= WEBSITE_NAME ?>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
