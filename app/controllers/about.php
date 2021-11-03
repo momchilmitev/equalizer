@@ -4,6 +4,7 @@ class About extends BaseController
 {
     public function index()
     {
-        $this->view('catalog/about');
+        $data['page_title'] = 'About';
+        $this->view('catalog/about', $data);
     }
 }

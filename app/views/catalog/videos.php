@@ -1,4 +1,4 @@
-<?php $this->view('catalog/partials/header'); ?>
+<?php $this->view('catalog/partials/header', $data); ?>
 
 <div class="tm-hero d-flex justify-content-center align-items-center" id="tm-video-container">
     <video autoplay muted loop id="tm-video">

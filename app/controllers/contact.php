@@ -4,6 +4,7 @@ class Contact extends BaseController
 {
     public function index()
     {
-        $this->view('catalog/contact');
+        $data['page_title'] = 'Contact';
+        $this->view('catalog/contact', $data);
     }
 }

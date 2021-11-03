@@ -4,6 +4,7 @@ class Videos extends BaseController
 {
     public function index()
     {
-        $this->view('catalog/videos');
+        $data['page_title'] = 'About';
+        $this->view('catalog/videos', $data);
     }
 }
