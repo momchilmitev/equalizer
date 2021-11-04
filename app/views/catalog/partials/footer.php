@@ -38,3 +38,10 @@
     </div>
   </div>
 </footer>
+
+<script src="<?= ASSETS ?>catalog/js/plugins.js"></script>
+<script>
+  $(window).on("load", function() {
+    $('body').addClass('loaded');
+  });
+</script>

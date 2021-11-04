@@ -267,12 +267,7 @@
 
 <?php $this->view('catalog/partials/footer'); ?>
 
-<script src="<?= ASSETS ?>catalog/js/plugins.js"></script>
 <script>
-    $(window).on("load", function() {
-        $('body').addClass('loaded');
-    });
-
     $(function() {
         /************** Video background *********/
 
