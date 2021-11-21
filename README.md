@@ -1,2 +1,3 @@
 # gallery
-Simple image/video gallery with php
+
+Simple landing page with html and css
