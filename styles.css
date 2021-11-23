@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,4 +16,23 @@ a {
   --kaki: #ffb964;
   --white: #fcfaf9;
   --black: #191826;
+}
+
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  line-height: 34px;
 }
