@@ -7,3 +7,11 @@
 a {
   text-decoration: none;
 }
+
+:root {
+  --aquamarine: #66e2dc;
+  --red: #fa7453;
+  --kaki: #ffb964;
+  --white: #fcfaf9;
+  --black: #191826;
+}
