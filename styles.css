@@ -73,8 +73,20 @@ p {
 }
 
 .main {
+  width: 100%;
+  height: 600px;
+  background-color: var(--black);
+  border-radius: 12px;
+  position: relative;
+  margin-top: 166px;
+  margin-bottom: 390px;
+  text-align: center;
 }
 
 .main img {
-  width: 100%;
+  width: 208px;
+  position: absolute;
+  top: -98px;
+  left: 50%;
+  transform: translateX(-50%);
 }
