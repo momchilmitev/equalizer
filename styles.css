@@ -88,6 +88,11 @@ p {
   transform: translateX(-50%);
 }
 
+.main__bg-pattern {
+  width: 280px;
+  height: 420px;
+}
+
 .cta-card {
   width: 100%;
   height: 546px;
