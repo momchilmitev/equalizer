@@ -162,3 +162,23 @@ p {
   background-color: var(--white);
   color: var(--black);
 }
+
+.footer {
+  margin: 0 24px 80px;
+}
+
+.footer__logo {
+  margin-bottom: 32px;
+}
+
+.footer__copyright {
+  margin-bottom: 64px;
+}
+
+.footer__copyright span {
+  font-weight: 700;
+}
+
+.footer__socials svg {
+  margin-right: 20px;
+}
