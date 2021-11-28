@@ -190,3 +190,13 @@ p {
 .footer__socials svg {
   margin-right: 20px;
 }
+
+.footer__socials svg:hover {
+  cursor: pointer;
+}
+
+.socials__facebook:hover > .socials__facebook--path,
+.socials__instagram:hover > .socials__instagram--path,
+.socials__twitter:hover > .socials__twitter--path {
+  fill: var(--red);
+}
