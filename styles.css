@@ -158,9 +158,17 @@ p {
   margin-bottom: 16px;
 }
 
+.cta-card__link--apple:hover {
+  background-color: var(--aquamarine);
+}
+
 .cta-card__link--android {
   background-color: var(--white);
   color: var(--black);
+}
+
+.cta-card__link--android:hover {
+  background-color: var(--kaki);
 }
 
 .footer {
