@@ -249,4 +249,35 @@ p {
     font-size: 18px;
     line-height: 28px;
   }
+
+  .main {
+    margin-top: 249px;
+    margin-bottom: 223px;
+  }
+
+  .main img {
+    width: 270px;
+    position: absolute;
+    top: -138px;
+    left: 64px;
+    transform: initial;
+    z-index: 2;
+  }
+
+  .main__bg-pattern {
+    position: absolute;
+    top: -31px;
+    left: 229px;
+    z-index: 1;
+  }
+
+  .cta-card {
+    width: 399px;
+    height: 586px;
+    position: absolute;
+    top: 150px;
+    left: 239px;
+    z-index: 3;
+    text-align: left;
+  }
 }
