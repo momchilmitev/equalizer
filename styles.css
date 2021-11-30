@@ -200,3 +200,49 @@ p {
 .socials__twitter:hover > .socials__twitter--path {
   fill: var(--red);
 }
+
+@media (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 0 33px;
+  }
+
+  .header__bg-pattern {
+    display: initial;
+    position: absolute;
+    top: -32px;
+    right: -35px;
+    width: 266px;
+    height: 400px;
+  }
+
+  .logo {
+    padding-top: 61px;
+    margin: 0;
+  }
+
+  .info {
+    width: 512px;
+    margin: 0;
+  }
+
+  .info__title {
+    margin-top: 95px;
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+  }
+
+  .info__description {
+    margin: 28px 0 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
