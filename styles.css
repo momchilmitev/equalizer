@@ -208,6 +208,10 @@ p {
 
   .container {
     padding: 0 33px;
+    background-image: url("assets/bg-main-tablet.png");
+    background-size: 983px 808px;
+    background-repeat: no-repeat;
+    background-position: -254px -112px;
   }
 
   .header__bg-pattern {
